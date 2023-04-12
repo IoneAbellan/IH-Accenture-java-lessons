@@ -7,7 +7,6 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-
         String[]days = {"lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"};
         System.out.println(days[4]);
 
@@ -97,10 +96,10 @@ public class Main {
 
         System.out.println(Arrays.toString(newArray));
 
-
-
-
-
+        //CHECK FOR UNDERSTANDING
+        System.out.println("Check for understanding: ");
+        int[] numbersArray = {19, 8, 10, 22, 7};
+        loopUnderstanding1(numbersArray);
     }
 
     public static String[] createSubjectsArray(){
@@ -112,5 +111,18 @@ public class Main {
         subjects[4] = "Quimica";
 
         return subjects;
+    }
+
+    public static void loopUnderstanding1(int[] numArray){
+
+        for(int i = 0; i < numArray.length-1; i++){
+            numArray[i] = numArray[i]*numArray[i+1];
+        }
+        numArray[numArray.length-1] = numArray[0]* numArray[numArray.length-1];
+
+        for(int number : numArray){
+            System.out.println(number);
+        }
+
     }
 }
