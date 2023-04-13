@@ -17,7 +17,7 @@ public class Main {
         System.out.println(bd1.subtract(bd2));
         System.out.println(bd1.divide(bd2, RoundingMode.HALF_EVEN));
         System.out.println(bd1.setScale(2, RoundingMode.HALF_EVEN));
-        System.out.println(bd1.compareTo(bd2)); //si el primero es mayor dara 1, si lo dos son iguales da 0 y si el seguno es mayor da -1
+        System.out.println(bd1.compareTo(bd2)); //si el primero es mayor dara 1, si lo dos son iguales da 0 y si el segundo es mayor da -1
 
 
     }
