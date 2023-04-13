@@ -29,7 +29,9 @@ public class InputOutput {
         scanner.close(); //buena practica para liberar recursos del pc
 
 
+
         //FILE HANDLING
+        /*
         String filePath = "src/com/ironhack/w1/d3/fichero.txt";
         File file = new File(filePath);
         if (file.createNewFile()){ //esto devuelve true o false si crea el archivo
@@ -51,5 +53,6 @@ public class InputOutput {
             System.out.println(str);
         }
         scanner.close();
+        */
     }
 }
